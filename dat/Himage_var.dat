@@ -1,0 +1,46 @@
+Parameters of the Hamiltonian (nuclear charge,epsilon_1,epsilon_2, magnetic quantum number, effective mass)
+1 6.2 9.1 0 0.35
+Power of the prefactor eta (for Hydrogen atom set k=0, otherwise k=1)
+1
+Number of regions in rho (nchi)  nchi+1 limits  (NUM / DEN)
+3 3
+Limits for rho NUM   (according to Number of Regions)
+0.0D0 2.0D0 20.0D0 1200.0D0 
+Limits for rho DEN
+0.0D0 2.0D0 20.0D0 1200.0D0 
+Number of regions in z  (neta)  neta+1 limits  (NUM / DEN)
+3 3
+Limits for z  (NUM)  (according to Number of Regions)
+0.0D0 2.0D0 20.0D0 1400.0D0 
+Limits for z  (DEN) 
+0.0D0 2.0D0 20.0D0 1400.0D0 
+Default Acc. NUM/DEN,  Factor , Flag for corr., acc. for corr, screen=1/file=0
+1.D-7    1.D-5        1.0D0         1           1.0D-02            1
+
+SET TITLe
+'Variational Energy Quantum Dot'
+PARAMETERS
+1  ' z0          ='300.0000000000000    0.0        4.0   25.0     
+2  ' alfa1       ='  0.0041000000000    0.00001    0.0     0.8
+3  ' alfa2       ='  0.03502718438188   0.0001     0.005   0.8
+4  ' alfac       ='  0.00023635203793   0.00001   -0.05    0.01 
+
+set strategy 2
+minimize 100
+stop
+
+set strategy 2
+set epsmachine 0.01
+minimize 20
+fix 3
+minimize 20
+release 2 3 4
+minimize 20
+stop
+
+
+
+
+-0.49795055648136927
+
+
