@@ -1,6 +1,10 @@
 # Weyl-H
 This is a collection of codes we used to study the the effects of a topological Weyl semimetal (WSM) upon the ground state and polarization of an hydrogen-like atom near its surface
 
+clone as:
+
+git clone https://github.com/djuliannader/WSMs-H.git
+
 # References
 
 For formulas and discussion see
