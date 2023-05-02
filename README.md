@@ -13,6 +13,7 @@ https://arxiv.org/abs/2201.10741
 
 Cite as:
 
-Jorge David Castaño-Yepes, D. J. Nader, A. Martín-Ruiz, Ground state and polarization of an hydrogen-like atom near a Weyl semimetal, arXiv:2201.10741 (2022)
+Jorge David Castaño-Yepes, D. J. Nader, and A. Martín-Ruiz
+Phys. Rev. A 107, 032814 (2023)
 
 
