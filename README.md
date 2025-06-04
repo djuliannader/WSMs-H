@@ -3,6 +3,9 @@ This is a collection of codes for the study of of the lowest states of the Hydro
 
 Clone as:
 
+```bash
+git clone https://github.com/djuliannader/WSMs-H.git
+```
 
 Cite as:
 
